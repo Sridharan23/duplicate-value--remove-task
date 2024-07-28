@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(146, 167, 152);
+    color: black;
+}
+
+.unique{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 50px 10px;
+    font-size: 60px;
+    text-align: center;
+}
+.name{
+    font-size: 45px;
+}
+.input{
+    font-size: 22px;
+    padding: 20px; 
+    margin-bottom: 50px;
+}
+
+.btn{
+    font-size: 26px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid black 2px;
+    background-color: rgb(99, 70, 70);
+    color: white;
+    margin-bottom: 30px;
+}
+.result{
+    font-size: 22px;
+}
+
+@media screen and (max-width:700px){
+    .title{
+        font-size: 22px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .result{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .input{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
